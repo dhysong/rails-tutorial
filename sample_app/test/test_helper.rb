@@ -12,4 +12,9 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+
+  def palindrom_tester(string)
+    string == string.reverse
+  end
+  
 end
